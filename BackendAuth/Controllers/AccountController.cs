@@ -639,7 +639,7 @@ namespace BackendAuth.Controllers
             base.Dispose(disposing);
         }
 
-        private IHttpActionResult GetErrorResult(IdentityResult result)
+        private new IHttpActionResult GetErrorResult(IdentityResult result)
         {
             if (result == null)
             {
