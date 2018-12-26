@@ -142,6 +142,7 @@ D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\bin\Microsoft.
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.csproj.CopyComplete
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.dll
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.pdb
-D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.Initial.resources
-D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.csproj.GenerateResource.cache
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\bin\BackendAuth.dll.config
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.Update.resources
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.csproj.GenerateResource.cache
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.csprojAssemblyReference.cache
