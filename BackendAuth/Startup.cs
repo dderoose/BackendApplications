@@ -35,7 +35,7 @@ namespace BackendAuth
                 TokenEndpointPath = new PathString("/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
                 Provider = new CustomOAuthProvider(),
-                AccessTokenFormat = new CustomJwtFormat("http://localhost:62662")
+                AccessTokenFormat = new CustomJwtFormat("http://backendapplications.azurewebsites.net")
             };
 
             // Token Generation

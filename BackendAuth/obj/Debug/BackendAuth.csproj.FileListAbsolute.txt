@@ -149,3 +149,4 @@ D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\Back
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.changeuser.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.changeuser1054.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.changeuser1121.resources
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.GetBreakByUser.resources
