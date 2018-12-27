@@ -16,14 +16,14 @@ namespace BackendAuth.Infrastructure
     public class ApplicationUser : IdentityUser
     {
         //[NotMapped]
-        [Required]
+        /*[Required]
         [MaxLength(100)]
         public string FirstName { get; set; }
 
         //[NotMapped]
         [Required]
         [MaxLength(100)]
-        public string LastName { get; set; }
+        public string LastName { get; set; }*/
 
         //[NotMapped]
         [Required]
@@ -34,19 +34,19 @@ namespace BackendAuth.Infrastructure
         public string ConfirmPassword { get; set; }
 
         //[NotMapped]
-        [Required]
-        public byte Level { get; set; }
+        /*[Required]
+        public byte Level { get; set; }*/
 
         //[NotMapped]
         [Required]
         public DateTime JoinDate { get; set; }
 
-        [Required]
+        /*[Required]
         public DateTime LastTimeVisitNotifications { get; set; }
 
         [NotMapped]
         [Required]
-        public int Bedrijf { get; set; }
+        public int Bedrijf { get; set; }*/
 
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)

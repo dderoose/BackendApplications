@@ -554,8 +554,6 @@ namespace BackendAuth.Controllers
 
             var appUser = await this.AppUserManager.FindByIdAsync(id);
 
-            appUser.LastTimeVisitNotifications = DateTime.Now;
-
             IdentityResult addUserResult = await this.AppUserManager.UpdateAsync(appUser);
 
             IHttpActionResult errorResult = GetErrorResult(addUserResult);
@@ -583,15 +581,10 @@ namespace BackendAuth.Controllers
             var user = new ApplicationUser()
             {
                 UserName = userModel.UserName,
-                FirstName = userModel.UserName,
-                LastName = userModel.UserName,
                 Password = userModel.Password,
                 ConfirmPassword = userModel.ConfirmPassword,
-                Level = 3,
                 Email = userModel.Email,
-                JoinDate = DateTime.Now,
-                Bedrijf = userModel.Bedrijf,
-                LastTimeVisitNotifications = DateTime.Now
+                JoinDate = DateTime.Now
 
             };
             /*private UserManager<IdentityUser> _userManager;
@@ -612,7 +605,7 @@ namespace BackendAuth.Controllers
             }
             var currentUser = await this.AppUserManager.FindByNameAsync(user.UserName);
 
-
+            /*
             if (userModel.Bedrijf == 1)
             {
                 var roleresult = await this.AppUserManager.AddToRoleAsync(currentUser.Id, "Bedrijf");
@@ -625,7 +618,7 @@ namespace BackendAuth.Controllers
             }
             //kijken of dit werkt
             await this.AppUserManager.AddClaimAsync(currentUser.Id, new Claim("TypeGebruiker", (await AppUserManager.IsInRoleAsync(currentUser.Id, "Gebruiker")).ToString()));
-
+*/
             return Ok();
         }
 

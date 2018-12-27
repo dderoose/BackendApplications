@@ -31,7 +31,7 @@ namespace StadsApp_Services.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        [Display(Name = "Bedrijf")]
-        public int Bedrijf { get; set; }
+        /*[Display(Name = "Bedrijf")]
+        public int Bedrijf { get; set; }*/
     }
 }
