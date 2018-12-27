@@ -287,6 +287,10 @@
     <Compile Include="Migrations\201812270955410_changeuser10.54.Designer.cs">
       <DependentUpon>201812270955410_changeuser10.54.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812271021476_changeuser11.21.cs" />
+    <Compile Include="Migrations\201812271021476_changeuser11.21.Designer.cs">
+      <DependentUpon>201812271021476_changeuser11.21.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -445,6 +449,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812270955410_changeuser10.54.resx">
       <DependentUpon>201812270955410_changeuser10.54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812271021476_changeuser11.21.resx">
+      <DependentUpon>201812271021476_changeuser11.21.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
