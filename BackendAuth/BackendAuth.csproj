@@ -279,6 +279,10 @@
     <Compile Include="Migrations\201812282239145_Initial.Designer.cs">
       <DependentUpon>201812282239145_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812282305173_UpdateMatch.cs" />
+    <Compile Include="Migrations\201812282305173_UpdateMatch.Designer.cs">
+      <DependentUpon>201812282305173_UpdateMatch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -431,6 +435,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812282239145_Initial.resx">
       <DependentUpon>201812282239145_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812282305173_UpdateMatch.resx">
+      <DependentUpon>201812282305173_UpdateMatch.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

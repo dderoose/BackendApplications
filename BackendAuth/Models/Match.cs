@@ -17,7 +17,6 @@ namespace BackendAuth.Models
         public DateTime DurationMatch { get; set; }
         public DateTime AverageShotTime { get; set; }
         public int NumberMatchesWon { get; set; }
-        [ForeignKey("User")]
         public string UserId { get; set; }
         [JsonIgnore] //anders circular ref exception
         public User User { get; set; }
