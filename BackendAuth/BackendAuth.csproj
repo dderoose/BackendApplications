@@ -275,25 +275,9 @@
     <Compile Include="Infrastructure\ClaimsAuthorizationAttribute.cs" />
     <Compile Include="Infrastructure\ExtendedClaimsProvider.cs" />
     <Compile Include="Infrastructure\RolesFromClaims.cs" />
-    <Compile Include="Migrations\201812261608053_Update.cs" />
-    <Compile Include="Migrations\201812261608053_Update.Designer.cs">
-      <DependentUpon>201812261608053_Update.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812270952592_changeuser.cs" />
-    <Compile Include="Migrations\201812270952592_changeuser.Designer.cs">
-      <DependentUpon>201812270952592_changeuser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812270955410_changeuser10.54.cs" />
-    <Compile Include="Migrations\201812270955410_changeuser10.54.Designer.cs">
-      <DependentUpon>201812270955410_changeuser10.54.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812271021476_changeuser11.21.cs" />
-    <Compile Include="Migrations\201812271021476_changeuser11.21.Designer.cs">
-      <DependentUpon>201812271021476_changeuser11.21.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201812271658315_GetBreakByUser.cs" />
-    <Compile Include="Migrations\201812271658315_GetBreakByUser.Designer.cs">
-      <DependentUpon>201812271658315_GetBreakByUser.cs</DependentUpon>
+    <Compile Include="Migrations\201812282239145_Initial.cs" />
+    <Compile Include="Migrations\201812282239145_Initial.Designer.cs">
+      <DependentUpon>201812282239145_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
@@ -445,20 +429,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812261608053_Update.resx">
-      <DependentUpon>201812261608053_Update.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812270952592_changeuser.resx">
-      <DependentUpon>201812270952592_changeuser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812270955410_changeuser10.54.resx">
-      <DependentUpon>201812270955410_changeuser10.54.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812271021476_changeuser11.21.resx">
-      <DependentUpon>201812271021476_changeuser11.21.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201812271658315_GetBreakByUser.resx">
-      <DependentUpon>201812271658315_GetBreakByUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812282239145_Initial.resx">
+      <DependentUpon>201812282239145_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

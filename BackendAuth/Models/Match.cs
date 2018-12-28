@@ -18,7 +18,7 @@ namespace BackendAuth.Models
         public DateTime AverageShotTime { get; set; }
         public int NumberMatchesWon { get; set; }
         [ForeignKey("User")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         [JsonIgnore] //anders circular ref exception
         public User User { get; set; }
         public virtual ICollection<Frame> Frames { get; set; }

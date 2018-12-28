@@ -9,7 +9,7 @@ namespace BackendAuth.Models
     public class User
     {
         [Key]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public string Username { get; set; }
         public string Paswoord { get; set; }
         public string PaswoordConfirm { get; set; }

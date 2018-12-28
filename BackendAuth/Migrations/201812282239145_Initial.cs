@@ -3,28 +3,11 @@ namespace BackendAuth.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Update : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {
-            CreateTable(
-                "dbo.Breaks",
-                c => new
-                    {
-                        BreakId = c.Int(nullable: false, identity: true),
-                        Player = c.String(),
-                        MomentPlayed = c.DateTime(nullable: false),
-                        NumberPoints = c.Int(nullable: false),
-                        Opponent = c.String(),
-                        TypeBreak = c.String(),
-                        FrameId = c.Int(),
-                        User_UserId = c.Int(),
-                    })
-                .PrimaryKey(t => t.BreakId)
-                .ForeignKey("dbo.Users", t => t.User_UserId)
-                .ForeignKey("dbo.Frames", t => t.FrameId)
-                .Index(t => t.FrameId)
-                .Index(t => t.User_UserId);
+
             
             CreateTable(
                 "dbo.Frames",
@@ -50,17 +33,17 @@ namespace BackendAuth.Migrations
                         DurationMatch = c.DateTime(nullable: false),
                         AverageShotTime = c.DateTime(nullable: false),
                         NumberMatchesWon = c.Int(nullable: false),
-                        UserId = c.Int(nullable: false),
+                        UserId = c.String(maxLength: 128),
                     })
                 .PrimaryKey(t => t.MatchId)
-                .ForeignKey("dbo.Users", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Users", t => t.UserId)
                 .Index(t => t.UserId);
             
             CreateTable(
                 "dbo.Users",
                 c => new
                     {
-                        UserId = c.Int(nullable: false, identity: true),
+                        UserId = c.String(nullable: false, maxLength: 128),
                         Username = c.String(),
                         Paswoord = c.String(),
                         PaswoordConfirm = c.String(),
@@ -144,13 +127,9 @@ namespace BackendAuth.Migrations
                 c => new
                     {
                         Id = c.String(nullable: false, maxLength: 128),
-                        FirstName = c.String(nullable: false, maxLength: 100),
-                        LastName = c.String(nullable: false, maxLength: 100),
                         Password = c.String(nullable: false),
                         ConfirmPassword = c.String(nullable: false),
-                        Level = c.Byte(nullable: false),
                         JoinDate = c.DateTime(nullable: false),
-                        LastTimeVisitNotifications = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.IdentityUsers", t => t.Id)
