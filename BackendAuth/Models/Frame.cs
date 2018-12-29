@@ -12,7 +12,7 @@ namespace BackendAuth.Models
     {
         [Key]
         public int FrameId { get; set; }
-        public DateTime DurationFrame { get; set; }
+        public Double DurationFrame { get; set; }
         public int PointsWinner { get; set; }
         public int PointsOpponent { get; set; }
         public string Winner { get; set; }
