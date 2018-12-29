@@ -22,7 +22,7 @@ namespace BackendAuth.Controllers
             return db.Matches;
         }
 
-        // GET: api/Breaks
+        // GET: api/Matches
         [Route("api/Matches/userid/{player}")]
         public IQueryable<Match> GetBreaksById(string playerid)
         {
