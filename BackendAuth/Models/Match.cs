@@ -13,6 +13,8 @@ namespace BackendAuth.Models
         [Key]
         public int MatchId { get; set; }
         public double PotSucces { get; set; }
+        public string Player { get; set; }
+        public string Opponent { get; set; }
         public double SafetySucces { get; set; }
         public DateTime DurationMatch { get; set; }
         public DateTime AverageShotTime { get; set; }

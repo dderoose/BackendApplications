@@ -132,21 +132,15 @@
           <e p="RolesFromClaims.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="201812261608053_Update.cs" t="Include" />
-          <e p="201812261608053_Update.Designer.cs" t="Include" />
-          <e p="201812261608053_Update.resx" t="Include" />
-          <e p="201812270952592_changeuser.cs" t="Include" />
-          <e p="201812270952592_changeuser.Designer.cs" t="Include" />
-          <e p="201812270952592_changeuser.resx" t="Include" />
-          <e p="201812270955410_changeuser10.54.cs" t="Include" />
-          <e p="201812270955410_changeuser10.54.Designer.cs" t="Include" />
-          <e p="201812270955410_changeuser10.54.resx" t="Include" />
-          <e p="201812271021476_changeuser11.21.cs" t="Include" />
-          <e p="201812271021476_changeuser11.21.Designer.cs" t="Include" />
-          <e p="201812271021476_changeuser11.21.resx" t="Include" />
-          <e p="201812271658315_GetBreakByUser.cs" t="Include" />
-          <e p="201812271658315_GetBreakByUser.Designer.cs" t="Include" />
-          <e p="201812271658315_GetBreakByUser.resx" t="Include" />
+          <e p="201812282239145_Initial.cs" t="Include" />
+          <e p="201812282239145_Initial.Designer.cs" t="Include" />
+          <e p="201812282239145_Initial.resx" t="Include" />
+          <e p="201812282305173_UpdateMatch.cs" t="Include" />
+          <e p="201812282305173_UpdateMatch.Designer.cs" t="Include" />
+          <e p="201812282305173_UpdateMatch.resx" t="Include" />
+          <e p="201812282310537_UpdateMatch0.10.cs" t="Include" />
+          <e p="201812282310537_UpdateMatch0.10.Designer.cs" t="Include" />
+          <e p="201812282310537_UpdateMatch0.10.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="ModelFactory.cs" t="Include" />
