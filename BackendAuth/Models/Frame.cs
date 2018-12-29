@@ -13,7 +13,8 @@ namespace BackendAuth.Models
         [Key]
         public int FrameId { get; set; }
         public DateTime DurationFrame { get; set; }
-        public int Points { get; set; }
+        public int PointsWinner { get; set; }
+        public int PointsOpponent { get; set; }
         public string Winner { get; set; }
         [ForeignKey("Match")]
         public int MatchId { get; set; }
