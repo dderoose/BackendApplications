@@ -23,8 +23,8 @@ namespace BackendAuth.Controllers
         }
 
         // GET: api/Matches
-        [Route("api/Matches/userid/{player}")]
-        public IQueryable<Match> GetBreaksById(string playerid)
+        [Route("api/Matches/userid/{playerid}")]
+        public IQueryable<Match> GetMatchesById(string playerid)
         {
             return db.Matches.Where(u => u.UserId == playerid);
         }
