@@ -299,6 +299,10 @@
     <Compile Include="Migrations\201812292230161_AddPlayerOpponentToMatch.Designer.cs">
       <DependentUpon>201812292230161_AddPlayerOpponentToMatch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812292248228_AddPlayerOpponentToMatch23.48.cs" />
+    <Compile Include="Migrations\201812292248228_AddPlayerOpponentToMatch23.48.Designer.cs">
+      <DependentUpon>201812292248228_AddPlayerOpponentToMatch23.48.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -466,6 +470,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812292230161_AddPlayerOpponentToMatch.resx">
       <DependentUpon>201812292230161_AddPlayerOpponentToMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812292248228_AddPlayerOpponentToMatch23.48.resx">
+      <DependentUpon>201812292248228_AddPlayerOpponentToMatch23.48.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

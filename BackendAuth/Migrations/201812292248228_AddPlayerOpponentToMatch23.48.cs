@@ -1,0 +1,16 @@
+namespace BackendAuth.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class AddPlayerOpponentToMatch2348 : DbMigration
+    {
+        public override void Up()
+        {
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}

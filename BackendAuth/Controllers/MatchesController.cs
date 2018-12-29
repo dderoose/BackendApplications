@@ -22,6 +22,13 @@ namespace BackendAuth.Controllers
             return db.Matches;
         }
 
+        // GET: api/Breaks
+        [Route("api/Matches/userid/{player}")]
+        public IQueryable<Match> GetBreaksById(string playerid)
+        {
+            return db.Matches.Where(u => u.UserId == playerid);
+        }
+
         // GET: api/Matches/5
         [ResponseType(typeof(Match))]
         public IHttpActionResult GetMatch(int id)
