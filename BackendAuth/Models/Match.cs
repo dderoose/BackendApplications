@@ -20,6 +20,7 @@ namespace BackendAuth.Models
         public DateTime AverageShotTime { get; set; }
         public int NumberMatchesWonPlayer1 { get; set; }
         public int NumberMatchesWonPlayer2 { get; set; }
+        public int OpslaanBreak { get; set; }
         public string UserId { get; set; }
         public virtual ICollection<Frame> Frames { get; set; }
     }

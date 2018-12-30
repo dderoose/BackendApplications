@@ -307,6 +307,10 @@
     <Compile Include="Migrations\201812301818042_UpdateMatchAddMatchesWonPlayer2.Designer.cs">
       <DependentUpon>201812301818042_UpdateMatchAddMatchesWonPlayer2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812301920065_UpdateMatchSaveBreak.cs" />
+    <Compile Include="Migrations\201812301920065_UpdateMatchSaveBreak.Designer.cs">
+      <DependentUpon>201812301920065_UpdateMatchSaveBreak.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -480,6 +484,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812301818042_UpdateMatchAddMatchesWonPlayer2.resx">
       <DependentUpon>201812301818042_UpdateMatchAddMatchesWonPlayer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812301920065_UpdateMatchSaveBreak.resx">
+      <DependentUpon>201812301920065_UpdateMatchSaveBreak.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
