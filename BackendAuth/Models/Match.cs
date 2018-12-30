@@ -18,7 +18,8 @@ namespace BackendAuth.Models
         public double SafetySucces { get; set; }
         public DateTime DurationMatch { get; set; }
         public DateTime AverageShotTime { get; set; }
-        public int NumberMatchesWon { get; set; }
+        public int NumberMatchesWonPlayer1 { get; set; }
+        public int NumberMatchesWonPlayer2 { get; set; }
         public string UserId { get; set; }
         public virtual ICollection<Frame> Frames { get; set; }
     }

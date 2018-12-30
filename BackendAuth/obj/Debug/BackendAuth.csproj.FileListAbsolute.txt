@@ -152,3 +152,4 @@ D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\Back
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.UpdateFrame1822.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.AddPlayerOpponentToMatch.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.AddPlayerOpponentToMatch2348.resources
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.UpdateMatchAddMatchesWonPlayer2.resources
