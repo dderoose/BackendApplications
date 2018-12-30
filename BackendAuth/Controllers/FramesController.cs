@@ -27,7 +27,7 @@ namespace BackendAuth.Controllers
         [Route("api/Frames/matchid/{matchid}")]
         public IQueryable<Frame> GetFramesByMatchId(int matchid)
         {
-            return db.Frames.Where(u => u.MatchId == matchid);
+            return db.Frames.Where(u => u.MatchId == matchid).Include(t=>t.Breaks);
         }
 
         // GET: api/Frames/5
