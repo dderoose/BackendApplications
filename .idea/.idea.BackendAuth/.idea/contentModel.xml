@@ -141,6 +141,12 @@
           <e p="201812282310537_UpdateMatch0.10.cs" t="Include" />
           <e p="201812282310537_UpdateMatch0.10.Designer.cs" t="Include" />
           <e p="201812282310537_UpdateMatch0.10.resx" t="Include" />
+          <e p="201812291546405_UpdateFrame.cs" t="Include" />
+          <e p="201812291546405_UpdateFrame.Designer.cs" t="Include" />
+          <e p="201812291546405_UpdateFrame.resx" t="Include" />
+          <e p="201812291722497_UpdateFrame18.22.cs" t="Include" />
+          <e p="201812291722497_UpdateFrame18.22.Designer.cs" t="Include" />
+          <e p="201812291722497_UpdateFrame18.22.resx" t="Include" />
           <e p="Configuration.cs" t="Include" />
         </e>
         <e p="ModelFactory.cs" t="Include" />
