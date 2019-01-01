@@ -17,7 +17,7 @@ namespace BackendAuth.Models
         public string Opponent { get; set; }
         public double SafetySucces { get; set; }
         public DateTime DurationMatch { get; set; }
-        public DateTime AverageShotTime { get; set; }
+        public DateTime DateOfMatch { get; set; }
         public int NumberMatchesWonPlayer1 { get; set; }
         public int NumberMatchesWonPlayer2 { get; set; }
         public int OpslaanBreak { get; set; }

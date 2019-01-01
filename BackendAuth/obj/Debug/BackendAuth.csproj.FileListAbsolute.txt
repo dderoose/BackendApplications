@@ -159,3 +159,4 @@ D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\Back
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.UpdateMatchSaveBreak23241.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.ChangeErrors.resources
 D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.ChangeErrors1525.resources
+D:\2018-2019 HoGent\Native_Apps_1\Backend\BackendAuth\BackendAuth\obj\Debug\BackendAuth.Migrations.changeaverageshottimetodateofmatch.resources
