@@ -327,6 +327,10 @@
     <Compile Include="Migrations\201901011420059_ChangeErrors.Designer.cs">
       <DependentUpon>201901011420059_ChangeErrors.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901011425375_ChangeErrors1525.cs" />
+    <Compile Include="Migrations\201901011425375_ChangeErrors1525.Designer.cs">
+      <DependentUpon>201901011425375_ChangeErrors1525.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -515,6 +519,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901011420059_ChangeErrors.resx">
       <DependentUpon>201901011420059_ChangeErrors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901011425375_ChangeErrors1525.resx">
+      <DependentUpon>201901011425375_ChangeErrors1525.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

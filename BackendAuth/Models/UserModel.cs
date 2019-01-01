@@ -13,8 +13,8 @@ namespace StadsApp_Services.Models
         public string UserId { get; set; }
 
         [Required]
-        [Compare("Username", ErrorMessage = "Deze gebruikersnaam bestaat al")]
-        [Display(Name = "Username")]
+        [Compare("UserName", ErrorMessage = "Deze gebruikersnaam bestaat al")]
+        [Display(Name = "UserName")]
         public string UserName { get; set; }
 
         [Required]
