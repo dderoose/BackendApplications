@@ -323,6 +323,10 @@
     <Compile Include="Migrations\201812302233261_UpdateMatchSaveBreak23241.Designer.cs">
       <DependentUpon>201812302233261_UpdateMatchSaveBreak23241.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901011420059_ChangeErrors.cs" />
+    <Compile Include="Migrations\201901011420059_ChangeErrors.Designer.cs">
+      <DependentUpon>201901011420059_ChangeErrors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ModelFactory.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -508,6 +512,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201812302233261_UpdateMatchSaveBreak23241.resx">
       <DependentUpon>201812302233261_UpdateMatchSaveBreak23241.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901011420059_ChangeErrors.resx">
+      <DependentUpon>201901011420059_ChangeErrors.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
