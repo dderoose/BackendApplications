@@ -13,22 +13,24 @@ namespace StadsApp_Services.Models
         public string UserId { get; set; }
 
         [Required]
+        [Compare("Email", ErrorMessage = "Deze gebruikersnaam bestaat al of is niet geldig")]
         [Display(Name = "Username")]
         public string UserName { get; set; }
 
         [Required]
+        [Compare("Email", ErrorMessage = "U hebt geen geldig emailadres ingevoerd")]
         [Display(Name = "Email")]
         public string Email { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "Het {0} moet minstens {2} characters lang zijn.", MinimumLength = 6)]
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
         [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        [Compare("Password", ErrorMessage = "het password and confirm password komen niet overeen.")]
         public string ConfirmPassword { get; set; }
 
         /*[Display(Name = "Bedrijf")]
